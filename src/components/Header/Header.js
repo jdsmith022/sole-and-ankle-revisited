@@ -42,7 +42,7 @@ const Header = () => {
             <VisuallyHidden>Open Cart</VisuallyHidden>
           </UnstyledButton>
 
-          <UnstyledButton>
+          <UnstyledButton  onClick={() => setShowMobileMenu(true)}>
             <Icon id="menu" />
             <VisuallyHidden>Open Cart</VisuallyHidden>
           </UnstyledButton>
